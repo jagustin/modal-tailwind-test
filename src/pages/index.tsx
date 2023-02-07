@@ -103,13 +103,14 @@ export default function Home() {
             </p>
             <ol>
               <li>
-                <strong
+                <button
+                  className="bg-indigo-500 text-white text-bold p-2"
                   onClick={() => {
                     setIsOpen(true);
                   }}
                 >
-                  Usability testing
-                </strong>
+                  Open Dialog
+                </button>
                 . Does your user know how to exit out of screens? Can they
                 follow your intended user journey and buy something from the
                 site you’ve designed? By running a usability test, you’ll be
